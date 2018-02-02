@@ -1,0 +1,99 @@
+/* Custom Stylesheet */
+/**
+* Use this file to override Materialize files so you can update
+* the core Materialize files in the future
+*
+* Made By MaterializeCSS.com
+*/
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.contactenos li{
+  margin-top: 4%;
+}
+
+#map{
+  margin-top: 1%;
+  width: 100%;
+  height: 400px;
+}
+
+.bt-crearRuta{
+  margin-top: 1%;
+  padding: 0 !important;
+}
+
+.icon-block img.responsive-img{
+  max-width: 50%;
+}
+
+
+.mt-2{
+  margin-top: 2%;
+}
+
+.img-galeria{
+  height: 100%;
+  width: 100%;
+}
+
+img.logo-muebleria{
+  max-width: 60px;
+}
+
+img.logo{
+  max-width: 200px;
+}
+
+div.material-placeholder div.material-placeholder{
+  height: 100% !important;
+}
+
+.overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+  text-align: center;
+}
+
+.overlay .row{
+  position: relative;
+  top: 45%;
+  transform: translateY(-50%);
+}
+
+.delete-photo {
+  position: absolute;
+  margin: 8px;
+}
+
+.overlay-modal{
+  z-index: 1005;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+<body style="font-family: sans-serif; font-size: 1.4em; margin: 0 auto; width: 100%;display: flex;min-height:100vh;flex-direction: column;">
+  <nav style="background-color: #8d6e63 !important;color: #fff;width: 100%;margin: 0 auto;height:65px;" role="navigation">
+    <div class="nav-wrapper container" style="position: relative;height: 100%;width:100%;margin:0 auto;">
+      <a id="logo-container" href="#" class="brand-logo" style="color: #fff;display: inline-block;font-size: 1.7rem;padding: 0;text-decoration: none;line-height: 64px;">
+        <i class="tiny material-icons left" style="margin-right: 15px;float:left">
+          <img src="http://muebleriaarroyosarchi.com/img/LogoMuebleri%CC%81a-01.png" style="max-width: 60px;height: auto;">
+        </i>
+        Solicitud de Cotización
+      </a>
+    </div>
+  </nav>
+  <style media="screen">
+  html{
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.87);
+  }
+
+  .container .row {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+  }
+  .row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+
+  .row .col.s12 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .row .col {
+    float: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0.75rem;
+    min-height: 1px;
+  }
+
+  @media only screen and (min-width: 993px){
+    materialize.css:3943
+    .row .col.offset-l4 {
+      margin-left: 33.3333333333%;
+    }
+  }
+  @media only screen and (min-width: 993px){
+    materialize.css:3862
+    .row .col.l4 {
+      width: 33.3333333333%;
+      margin-left: auto;
+      left: auto;
+      right: auto;
+    }
+  }
+  @media only screen and (min-width: 601px){
+    materialize.css:3691
+    .row .col.m6 {
+      width: 50%;
+      margin-left: auto;
+      left: auto;
+      right: auto;
+    }
+  }
+
+  .center, .center-align {
+    text-align: center;
+  }
+  .teal-text {
+    color: #009688 !important;
+  }
+  h3 {
+    font-size: 2.92rem;
+    line-height: 110%;
+    margin: 1.46rem 0 1.168rem 0;
+    font-weight: 400 !important;
+  }
+
+  .thin {
+    font-weight: 200;
+  }
+  span{
+    font-size: 15px;
+  }
+  .bold{
+    font-weight: bold;
+  }
+
+  @media only screen and (min-width: 993px){
+    .container {
+      width: 70%;
+    }
+  }
+
+  @media only screen and (min-width: 601px){
+    .container {
+      width: 85%;
+    }
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  </style>
+  <main class="container">
+    <div class="row">
+      <div class="col s12">
+        <h3 class="bold header center teal-text">Cotizacion</h3>
+      </div>
+      <div class="col s12">
+        <div class="row">
+          <div class="input-field col s12 m6 l4 offset-l4">
+            <div id="main" style="width: 100%; float: left; margin-bottom: 2%;">
+              <div style="width: 100%; float: left; text-align: center;">
+                <h5 class="bold header center teal-text">Datos de la cotización</h5>
+                <p></p>
+                <span class="bold">Nombre: </span><span class="thin">'.$nombre.'</span>
+                <br>
+                <span class="bold">Correo: </span><span class="thin">'.$email.'</span>
+                <br>
+                <span class="bold">Telefono: </span><span class="thin">'.$telefono.'</span>
+                <br><br>
+                <h5 class="bold header center teal-text">Detalles</h5>
+                <span>'.$detalle.'</span><br>
+                <span class="bold">Maderas: </span><span class="thin">'.$maderas.'</span><br>
+                <img src="'.$imagen.'">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12 m6 l4 offset-l4">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div style="width: 100%; background-color: #009688 !important; color: white; float: left; padding: 0 1%;">
+      <p style="text-decoration: none; color: white;font-size:20px;">Muebleria Arroyo Sarchí</p>
+      <p style="font-size:15px;">Sarchi, Alajuela, Costa Rica</p>
+    </div>
+  </footer>
+</body>
+
+</html>
