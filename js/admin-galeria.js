@@ -1,9 +1,9 @@
 $( document ).ready(function() {
 
   var picture = "";
-  var nombreImagen = "";
+  var nombreImagen = "";//
   var carpeta;
-  //var base_url = "http://localhost/muebleriaarroyo";//pruebas
+  //var base_url = "http://localhost/muebleriaarroyo";//
   var base_url = "http://muebleriaarroyosarchi.com";
 
   $("#btnAgregarImagen").click(function(){
