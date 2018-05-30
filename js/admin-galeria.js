@@ -1,10 +1,10 @@
-$( document ).ready(function() {
+$( document ).ready(function() {// vamos a ver esto debe de estar solo en las branches locales
 
   var picture = "";
   var nombreImagen = "";//
   var carpeta;
   //var base_url = "http://localhost/muebleriaarroyo";//
-  var base_url = "http://muebleriaarroyosarchi.com";// esto lo estoy haciendo local-michael
+  var base_url = "http://muebleriaarroyosarchi.com";//
 
   $("#btnAgregarImagen").click(function(){
     carpeta = $(".select-dropdown").val();
