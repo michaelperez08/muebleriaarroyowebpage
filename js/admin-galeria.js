@@ -3,7 +3,7 @@ $( document ).ready(function() {// vamos a ver esto debe de estar solo en las br
   var picture = "";
   var nombreImagen = "";//
   var carpeta;
-  //var base_url = "http://localhost/muebleriaarroyo";//
+  //var base_url = "http://localhost/muebleriaarroyo";// esto es el cmabio 
   var base_url = "http://muebleriaarroyosarchi.com";//
 
   $("#btnAgregarImagen").click(function(){
