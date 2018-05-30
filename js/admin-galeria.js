@@ -4,7 +4,7 @@ $( document ).ready(function() {
   var nombreImagen = "";//
   var carpeta;
   //var base_url = "http://localhost/muebleriaarroyo";//
-  var base_url = "http://muebleriaarroyosarchi.com";
+  var base_url = "http://muebleriaarroyosarchi.com";// esto lo estoy haciendo local-michael
 
   $("#btnAgregarImagen").click(function(){
     carpeta = $(".select-dropdown").val();
