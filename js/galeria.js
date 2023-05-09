@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
   //var base_url = "http://localhost/muebleriaarroyo";
-  var base_url = "/";
+  var base_url = "";
   var widthImg = 0;
   var listaCarpetas = new Array();
 
