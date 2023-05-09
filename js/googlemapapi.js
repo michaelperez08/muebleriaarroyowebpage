@@ -1,5 +1,5 @@
  var destinoSeleccionado;
- var myLatLngSarchi = {lat: 10.078084, lng: -84.353661};
+ var myLatLngSarchi = {lat: 10.086657524108887, lng: -84.34241485595703};
 
  function initMap() {
  	var directionsService = new google.maps.DirectionsService;
