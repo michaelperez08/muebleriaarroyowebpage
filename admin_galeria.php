@@ -259,7 +259,7 @@ if(!isset($_SESSION['username'])) {
             <h5 class="white-text">Contactenos</h5>
             <ul class="contactenos">
               <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/muebleriaarroyo/" target="_blank"><i class="tiny material-icons left" style="width:28px;"><img src="img/facebook-2.png" class="responsive-img"></i>facebook</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!"><i class="small material-icons left">phone</i>2450-2042 / 8810-6833 / 6088-1544</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!"><i class="small material-icons left">phone</i>6020-3566 / 6450-7470</a></li>
               <li><a class="grey-text text-lighten-3" href="#!"><i class="small material-icons left">mail</i>muebleriaarroyo@hotmail.es</a></li>
               <li><a class="grey-text text-lighten-3" href="#!"><i class="small material-icons left">room</i>Sarchi, Alajuela</a></li>
             </ul>
